@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mohamad Ilman Huda</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text-box" id="home">
+            <h1>Mohamad Ilman Huda</h1>
+            <p>I'm a passionate IT Developer from Depok</p>
+            <a class="btn btn-full" href="https://hudilman.github.io/">Detail Portofolio</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="about-me" class="card">
+                <h2>About Me</h2>
+                <p>Saya adalah <strong>Mohamad Ilman Huda</strong>, saya mempunyai pengalaman menjadi programmer selama
+                    1 tahun setengah dan menjadi fullstack developer selama 2 tahun.</p>
+
+                <p>Saat ini saya sedang menempuh pendidikan di Universitas Pamulang di jurusan Teknik Informatika.</p>
+            </article>
+
+            <article id="skills" class="card">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Linux Centos</li>
+                    <li>PHP / Framework :
+                        <ol>
+                            <li>Laravel</li>
+                            <li>Smarty</li>
+                            <li>Codeigniter</li>
+                        </ol>
+                    </li>
+                    <li>Js / Framework :
+                        <ol>
+                            <li>Jquery</li>
+                            <li>Vue</li>
+                            <li>React</li>
+                            <li>Angular</li>
+                        </ol>
+                    </li>
+                    <li>Android
+                        <ol>
+                            <li>Ionic</li>
+                            <li>Flutter</li>
+                            <li>React Native</li>
+                            <li>Kotlin</li>
+                        </ol>
+                    </li>
+                    <li>
+                        Web CMS :
+                        <ol>
+                            <li>Wordpress</li>
+                            <li>Opencart</li>
+                        </ol>
+                    </li>
+                    <li>
+                        CSS / Framework
+                    </li>
+                    <li>
+                        Proxmox
+                    </li>
+                </ul>
+            </article>
+
+            <article class="card" id="portofolio">
+                <h2>Portofolio</h2>
+                <!--Slider-->
+                <div id="slider">
+                    <div class="slide" style="background:dodgerBlue;">
+                        <img src="assets/img/portofolios/fm.JPG">
+                    </div>
+
+                    <div class="slide" style="background:coral;">
+                        <img src="assets/img/portofolios/fmb.JPG">
+                    </div>
+
+                    <div class="slide" style="background:crimson;">
+                        <img src="assets/img/portofolios/simkeswa.JPG">
+                    </div>
+
+                    <div class="slide" style="background: #6edf10;">
+                        <img src="assets/img/portofolios/rejekifiesta.JPG">
+                    </div>
+
+                    <!--Controlling arrows-->
+                    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i style="color:#000;" class="fa fa-arrow-left"
+                        aria-hidden="true"></i>
+                    </span>
+                    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i style="color:#000;" class="fa fa-arrow-right"
+                            aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div id="dots-con">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+
+            </article>
+
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <div class="sidebar">
+                    <h2>Profile</h2>
+                    <img src="assets/img/ilman.jpeg">
+                </div>
+                <div class="account">
+                    <h3>Informasi Lengkap</h3>
+                    <table class="center">
+                        <tr>
+                            <th>Nama</th>
+                            <td>:</td>
+                            <td>Mohamad Ilman Huda</td>
+                        </tr>
+                        <tr>
+                            <th>Tempat Lahir</th>
+                            <td>:</td>
+                            <td>Jakarta</td>
+                        </tr>
+                        <tr>
+                            <th>Jenis Kelamin</th>
+                            <td>:</td>
+                            <td>Laki-laki</td>
+                        </tr>
+                        <tr>
+                            <th>Kewarganegaraan</th>
+                            <td>:</td>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th>Agama</th>
+                            <td>:</td>
+                            <td>Islam</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+        </aside>
+
+
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <footer>
+        <p>&#169; Mohamad Ilman Huda 2022</p>
+    </footer>
+
+</body>
+
+</html>
